@@ -4,7 +4,7 @@ motd script for:
 
 * Raspberry Pi / Raspbian
 
-### motd for Raspberry Pi / Raspbian   
+### motd script for Raspberry Pi / Raspbian   
    
 Based on: https://github.com/gagle/raspberrypi-motd/blob/master/motd.sh   
    
@@ -13,7 +13,8 @@ Screenshot:
    
 Download motd script and run it from /etc/profile.d:
 ````
-wget -O /etc/profile.d/motd.sh https://raw.githubusercontent.com/tedsluis/motd/master/raspberry_raspbian/motd.sh
+$ sudo wget -O /etc/profile.d/motd.sh https://raw.githubusercontent.com/tedsluis/motd/master/raspberry_raspbian/motd.sh
+$ sudo chmod 755 /etc/profile.d/motd.sh
 ````
    
 https://github.com/tedsluis   
